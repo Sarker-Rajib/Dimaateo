@@ -1,0 +1,125 @@
+.Check-out-n-riepilogo{
+   .container-fluid{
+      .row{
+         .Check-out{
+            height: 100%;
+
+            .accedi{
+               padding-top: 15px;
+               padding-bottom: 20px;
+
+               p{
+                  padding-left: 30px;
+                  padding-top: 10px;
+
+                  i{
+                     color: #263d74;
+                     padding-right: 7px;
+                  }
+
+                  a{
+                     color: #293d73;
+                  }
+               }
+            }
+
+            .spedizione{
+               span{
+                  color: #293d73 ;
+               }
+
+            }
+
+
+            .metodo-di-spedizione{
+
+
+               .box{
+                  border: 1px solid #293d73;
+                  border-radius: 10px;
+                  margin-right: 10px;
+               }
+            }
+         }
+
+
+         .riepilogo{
+            background: #263d74;
+
+
+            .articoli-presenti-nel-carrello{
+               // width: 85%;
+
+               // @media screen and (max-width: 767px){
+               //    width: 100%;
+               // }
+
+               .blue-back-white{
+                  color: #fff;
+                  padding-bottom: 20px;
+
+                  span{
+                     background: #fff;
+                     color: #263d74;
+                  }
+               }
+
+               .item-box{
+                  background: #1d3369;
+                  height:45vh;
+                  border-radius: 10px;
+                  overflow-y: scroll;
+
+                  .image{
+
+                     img{
+                        height: 175px;
+                        width: 175px;
+
+                        @media screen and (max-width: 767px){
+                           height: 100px;
+                           width: 100px;   
+                           margin-top: 22px;                
+                        }
+                     }
+                  }
+
+                  .text{
+                     width: 100%;
+                     padding-top: 22px;
+                     padding-right: 25px;
+                  
+                     h4{
+                        font-size: 22px;font-weight: 800;
+                     }                  
+                  }
+               }
+
+               .positiva{
+                  background: #1d3369;
+               }
+
+               .awesome{
+                  .middle{
+                     i{
+                        font-size: 25px;
+                        background: #30ac71;
+                        padding: 5px;
+                        margin-right: 10px;
+                     }
+                  }
+
+                  .right{ 
+                     i{
+                        color: #30ac71;
+                        font-size: 25px;
+                        padding: 5px;
+                        margin-right: 2px;
+                     }                      
+                  }
+               }
+            }
+         }
+      }
+   }
+}
